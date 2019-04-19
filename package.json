@@ -1,0 +1,27 @@
+{
+  "name": "service3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakariadhaimi/service3.git"
+  },
+  "keywords": [
+    "mailer"
+  ],
+  "author": "zdhaimi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zakariadhaimi/service3/issues"
+  },
+  "homepage": "https://github.com/zakariadhaimi/service3#readme",
+  "dependencies": {
+    "mariadb": "^2.0.3",
+    "nodemailer": "^6.1.0"
+  }
+}
