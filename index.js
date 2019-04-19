@@ -1,6 +1,6 @@
 const nodemailer = require('nodemailer');
 const mariadb = require('mariadb');
-const conn = mariadb.createPool({host: 'localhost', user: 'root', database: 'dcim_test', connectionLimit: 6});
+const conn = mariadb.createPool({host: '172.18.0.4', user: 'root',password:'root' , database: 'dcim', connectionLimit: 6});
 
 // select id and oids name of equipment
 let query = "SELECT e.name as name , a.message as message from alarms a join equipment e on e.id=a.equipment_id where a.end_time is  null";
